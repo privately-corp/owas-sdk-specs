@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "OwasSdk"
-    s.version      = "1.0.0"
+    s.version      = "1.0.1"
     s.summary      = "Core SDK for online wellbeing. Contains core features of text analysis."
     s.description  = <<-DESC
     Core SDK for online wellbeing. Supports analysis of text for toxicity and hate speech.
