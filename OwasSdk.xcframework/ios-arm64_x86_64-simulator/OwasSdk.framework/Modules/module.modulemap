@@ -1,0 +1,4 @@
+framework module OwasSdk {
+  header "OwasSdk-Swift.h"
+  requires objc
+}

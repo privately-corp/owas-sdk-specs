@@ -1,0 +1,45 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios11.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OwasSdk
+import CoreML
+import CryptoKit
+import Foundation
+import Swift
+@_hasMissingDesignatedInitializers public class HateSpeechAnalyser {
+  public class func sharedInstance() -> OwasSdk.HateSpeechAnalyser
+  public func initManager() throws
+  public func isLoaded() -> Swift.Bool
+  public func getVersion() -> Swift.String
+  public func analyse(text: Swift.String) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ToxicityAnalyser {
+  public class func sharedInstance() -> OwasSdk.ToxicityAnalyser
+  public func initManager() throws
+  public func isLoaded() -> Swift.Bool
+  public func getVersion() -> Swift.String
+  public func analyse(text: Swift.String) -> Swift.Bool
+  @objc deinit
+}
+public enum ModelVersion {
+  case v4
+  case v5
+  case v6
+  public static func == (a: OwasSdk.ModelVersion, b: OwasSdk.ModelVersion) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+@_hasMissingDesignatedInitializers public class OwasSdkCore {
+  public class func getVersion() -> Swift.String
+  public class func initManager(applicationGroup: Swift.String, keychainGroup: Swift.String, forKeyboard: Swift.Bool, modelVersion: OwasSdk.ModelVersion = ModelVersion.v6) throws
+  public class func authenticate(apiKey: Swift.String, apiSecret: Swift.String, callback: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
+  public class func isAuthenticated() -> Swift.Bool
+  public class func initManagerAsync(applicationGroup: Swift.String, keychainGroup: Swift.String, forKeyboard: Swift.Bool, modelVersion: OwasSdk.ModelVersion = ModelVersion.v6, callback: @escaping (Swift.Bool) -> Swift.Void)
+  public class func isLoaded() -> Swift.Bool
+  public class func isForKeyboard() -> Swift.Bool
+  @objc deinit
+}
+extension OwasSdk.ModelVersion : Swift.Equatable {}
+extension OwasSdk.ModelVersion : Swift.Hashable {}
