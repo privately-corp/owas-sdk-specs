@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/OwasSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IJenM3Q6G75sEGTjPGxwQJyotMM=
+		mVLuwSOQfmxWO6niJZxACTkYMoQ=
 		</data>
 		<key>Modules/OwasSdk.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/OwasSdk.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		IJenM3Q6G75sEGTjPGxwQJyotMM=
+		mVLuwSOQfmxWO6niJZxACTkYMoQ=
 		</data>
 		<key>Modules/OwasSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/OwasSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aMqNWupCG036FDdTacdZsuy8u+I=
+		b8kW7sun3r4yHJ+210QLu9dg2Kk=
 		</data>
 		<key>Modules/OwasSdk.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/OwasSdk.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		aMqNWupCG036FDdTacdZsuy8u+I=
+		b8kW7sun3r4yHJ+210QLu9dg2Kk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -124,7 +124,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			STYz256XinMSQFZfjFK95vimVN9VSxZjfyKkhrG8b7M=
+			mxYjLrWZqunbC9sCiI5MHTvWZxxiWmWFaHymoOteuoE=
 			</data>
 		</dict>
 		<key>Modules/OwasSdk.swiftmodule/arm64.swiftdoc</key>
@@ -145,7 +145,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			STYz256XinMSQFZfjFK95vimVN9VSxZjfyKkhrG8b7M=
+			mxYjLrWZqunbC9sCiI5MHTvWZxxiWmWFaHymoOteuoE=
 			</data>
 		</dict>
 		<key>Modules/OwasSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Vdet7QwNDo6BmfmiyQS6gcfMNxUnH0cr8DqK+Fgc60=
+			cMXE8UbGSepXKpuczxMvid6QWOtTUjlj/kTSzv8ZHnY=
 			</data>
 		</dict>
 		<key>Modules/OwasSdk.swiftmodule/x86_64.swiftdoc</key>
@@ -187,7 +187,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Vdet7QwNDo6BmfmiyQS6gcfMNxUnH0cr8DqK+Fgc60=
+			cMXE8UbGSepXKpuczxMvid6QWOtTUjlj/kTSzv8ZHnY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
